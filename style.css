@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background-color: white;
+    background-color: lightgray;
 }
 .nav-link{
     color: black;
@@ -15,7 +15,7 @@
     text-decoration: none;
 }
 .nav-link:hover{
-    color: white;
+    color: blueviolet;
     background-color: black;
 }
 .navbar-brand{
@@ -31,12 +31,14 @@ img{
 }
 .main{
     background: url(./images/about.jpg)no-repeat;
+    background-color: black;
     background-size: 800px;
     background-position: right;
     width: 80;
     height: 90vh;
 }
 .main h3{
+    color: yellowgreen;
     font-size: 4.4rem;
     font-weight: 700;
 }
@@ -73,7 +75,7 @@ img{
     border-radius: 5px;
 }
 .main .bt2:hover{
-    background-color: rgb(233, 20, 109);
+    background-color: black;
     transition: 0.5s;
     color: white;
 }
@@ -85,6 +87,13 @@ img{
     box-shadow: 10px 30px 99px -175px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 30px 99px -175px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 30px 99px -175px rgba(0,0,0,0.75);
+}
+.about {
+    background-color: rgb(228, 209, 174);
+}
+.about h1{
+    font-size: 3.5rem;
+    color: olivedrab;
 }
 h1{
     font-size: 3rem;
@@ -164,6 +173,22 @@ h1{
         width: 65%;
     }
 }
+.ceta {
+    background-color: rgb(159, 188, 100);
+}
+.ceta h1{
+    font-size: 3.5rem;
+    color: blue;
+}
+
+.ceta .card:hover {
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: -1px -9px 35px 8px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px -9px 35px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -9px 35px 8px rgba(0,0,0,0.75);
+}
 .btn1{
     height: 40px;
     width: 145px;
@@ -191,6 +216,13 @@ h1{
     color: white;
     border: none;
     transition: 0.5s;
+}
+.portfolio {
+    background-color: bisque;
+}
+.portfolio h1{
+    font-size: 3.5rem;
+    color: green;
 }
 .card{
     border: none;
@@ -232,6 +264,9 @@ transition: 0.5s;
     color: black;
     transition: 0.4s;
     border: 1px solid black;
+}
+.contact{
+    background-color: aquamarine;
 }
 footer{
     background-color: rgb(16, 16, 16);
